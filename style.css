@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish&family=Noto+Sans&family=Radio+Canada:wght@500&display=swap');
+
+:root{
+    --yellow: #edb92a
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    margin-top: 20px;
+}
+    
+.div1 { 
+    border: 0.5px solid var(--yellow);
+    width: auto;
+    margin: 0px;
+    font-size: 15px;
+    text-emphasis-color: var(--yellow);
+    text-align: center;
+}
+.corner-img{
+    width: 70%;
+}
+.text{
+    color: var(--yellow);
+    text-align: left;
+    margin-left: 10%;
+    
+}
+.text-left-white{
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: -7px;
+    margin-top: 2px;
+    float: left;
+    font-size: 14px;
+}
+.text-right-yellow{
+    color: var(--yellow);
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: -7px;
+    margin-top: 2px;
+    float: right;
+    font-size: 14px;
+}
+
+.inline{
+    display: flex;
+    justify-content: space-between;
+}
+.upline{
+    position: absolute;
+    left: 17.3%;
+    width: 82.5%;
+    height: 1px;
+    margin-top: 40px;
+    background: var(--yellow);
+    
+}
+.kyc{
+    position: absolute;
+    background-color: var(--yellow);
+    left: 22%;
+    top: 15%;
+    width: 68%;
+    height: 28px;
+}
+.kyc-txt{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 20px;
+}
+.container{
+    position: absolute;
+    left: 22%;
+    top: 22%;
+    display: grid;
+    height: 400px;
+    width: 68%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+}
+.item{
+    border: 1px solid var(--yellow);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.container2{
+    position: absolute;
+    left: 22%;
+    top: 100%;
+    display: grid;
+    height: 450px;
+    width: 68%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.item-2{
+    border: 1px solid var(--yellow);
+    margin: 10px;
+    border-radius: 8px;
+}
+.container3{
+    position: absolute;
+    left: 23%;
+    top: 182%;
+    display: grid;
+    height: 220px;
+    width: 67%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    column-gap: 70px;
+}
+.item-3{
+    border: 1px solid var(--yellow);
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.round-img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 35px;
+    border: 1px solid white;
+    background-image: url('./images/Arsh\ Passport\ Image\ \(002\).jpg');
+    background-size: cover;
+}
+.round-img-2{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 35px;
+    background-image: url('./images/lini.png');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.round-img-3{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 35px;
+    background-image: url('./images/indian-currency-389006_1920_5f1547587ee6e.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.referral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-bottom: -3rem;
+    background-color: var(--yellow);
+    height: 2rem;
+    width: 40%;
+    border-color: var(--yellow);
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.heading{
+    color: var(--yellow);
+    margin-top: 6%;
+    margin-left: 4%;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+}
+.heading-2{
+    color: var(--yellow);
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+}
+.box-header{
+    display: flex;
+}
+.big-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.spelling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+}
+.yellow-circle{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 35px;
+    background-color: var(--yellow);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.big-number-yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: var(--yellow);
+    margin-top: 40px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.small-number-yellow{
+    margin-left: 10%;
+    font-size: 30px;
+    color: var(--yellow);
+    margin-top: 40px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.spelling-yellow-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: var(--yellow);
+    font-family: 'Radio Canada', sans-serif;
+}
+.spelling-yellow{
+    margin-left: 10%;
+    font-size: small;
+    color: var(--yellow);
+    font-family: 'Radio Canada', sans-serif;
+}
